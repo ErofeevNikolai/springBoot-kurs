@@ -1,0 +1,18 @@
+2022-12-30 10:15:42 r.n.s.SpringBootKursApplication - Starting SpringBootKursApplication using Java 13.0.10 on DESKTOP-UN6PAES with PID 22992 (D:\коля\JAVA\ДЗ\SpringBoot\springBoot-kurs\target\classes started by Дарина in D:\коля\JAVA\ДЗ\SpringBoot\springBoot-kurs)
+2022-12-30 10:15:42 r.n.s.SpringBootKursApplication - No active profile set, falling back to 1 default profile: "default"
+2022-12-30 10:15:44 o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-12-30 10:15:44 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-30 10:15:44 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-12-30 10:15:45 r.n.s.SpringBootKursApplication - Started SpringBootKursApplication in 3.347 seconds (JVM running for 5.983)
+2022-12-30 10:16:08 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-30 10:16:09 r.n.s.controller.ControllerTransfer - POST//transfer: Запрос на перевод средств
+2022-12-30 10:16:09 r.n.s.service.TransferService - Проверка реквизитов пройдена
+2022-12-30 10:16:09 r.n.s.service.TransferService - ID_1: Заморозка средств на карте: 1111111111111111.
+2022-12-30 10:16:09 r.n.s.repository.RepoBank - БАНК: Карта: 1111111111111111: изменение баланса на сумму: -1100. Текущий баланс 98900
+2022-12-30 10:16:09 r.n.s.service.TransferService - ID_1: Создан проверочный код.
+2022-12-30 10:16:09 r.n.s.service.TimerCheckWait - ID_1: Запуск таймера ожидания кода.
+2022-12-30 10:16:09 r.n.s.controller.ControllerTransfer - POST/confirmOperation: ID_1: Ввод проверочного кода
+2022-12-30 10:16:09 r.n.s.service.TransferService - ID_1: Кода принят
+2022-12-30 10:16:09 r.n.s.repository.RepoThreadChecWait - ID_1: Ожидание остановлено и удалено из списка операций
+2022-12-30 10:16:09 r.n.s.service.TransferService - ID_1: Зачисление денежных средств на карту получателя
+2022-12-30 10:16:09 r.n.s.repository.RepoBank - БАНК: Карта: 2222222222222222: изменение баланса на сумму: 1100. Текущий баланс 201100
